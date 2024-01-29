@@ -1,111 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>PKC Papers</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
-<body>
-
-  <!-- header start -->
-  <header class="header">
-     <div class="container">
-        <div class="header-main">
-           <div class="logo">
-              <a href="#">PKC Papers</a>
-           </div>
-           <div class="open-nav-menu">
-              <span></span>
-           </div>
-           <div class="menu-overlay">
-           </div>
-           <!-- navigation menu start -->
-           <nav class="nav-menu">
-             <div class="close-nav-menu">
-                <img src="img/close.svg" alt="close">
-             </div>
-             <ul class="menu">
-                <li class="menu-item menu-item-has-children">
-                   <a href="#" data-toggle="sub-menu">Downloads<i class="plus"></i></a>
-                   <ul class="sub-menu">
-                       <li class="menu-item"><a href="/downloads/bca.html">BCA</a></li>
-                       <li class="menu-item"><a href="/downloads/bvoc.html">BVOC</a></li>
-                       <li class="menu-item"><a href="/downloads/bsc.html">BSC CS</a></li>
-                       <li class="menu-item"><a href="/downloads/msc.html">MSC CS</a></li>
-                   </ul>
-                </li>
-
-                <li class="menu-item menu-item-has-children">
-                   <a href="#" data-toggle="sub-menu">Syllabus<i class="plus"></i></a>
-                   <ul class="sub-menu">
-                       <li class="menu-item"><a href="https://drive.google.com/file/d/14MGB5WtfWm2_h1gA0vEaD20ArexOZ6TJ/view">BCA</a></li>
-                       <li class="menu-item"><a href="https://drive.google.com/file/d/1ASbmQluvy7rEgSZ-tkw1oTkaBzjdwrxi/view">BSC CS</a></li>
-                       <li class="menu-item"><a href="http://www.gauhati.ac.in/Criterion-1.2.2/BVoc-Computer%20Application-CBCS%20(2021).pdf">BVOC</a></li>
-                       <li class="menu-item"><a href="https://drive.google.com/file/d/175XeEi3Ek_EThlYDSVSuUZrI67d8YneY/view">MSC CS</a></li>
-                   </ul>
-                </li>
-                <li class="menu-item">
-                  <a href="#">About</a>
-               </li>
-                <li class="menu-item">
-                   <a href="#">Contact</a>
-                </li>
-             </ul>
-           </nav>
-           <!-- navigation menu end -->
+    <head>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
+        <title>World-Weather-Hub</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="weather-app">
+            <form class="search-form" action="">
+                <input
+                    class="city-input"
+                    type="text"
+                    placeholder="Enter City Name"
+                />
+                <button class="search-btn" type="submit">
+                    <i class="material-icons">search</i>
+                </button>
+            </form>
+            <div class="city-date-section">
+                <h2 class="city">Delhi</h2>
+                <p class="date">7 Jan 2024</p>
+            </div>
+            <div class="temperature-info">
+                <div class="description">
+                    <i class="material-icons">sunny</i>
+                    <span class="description-text">Sunny</span>
+                </div>
+                <div class="temp">20°</div>
+            </div>
+            <div class="additional-info">
+                <div class="wind-info">
+                    <i class="material-icons">air</i>
+                    <div>
+                        <h3 class="wind-speed">4 KM/H</h3>
+                        <p class="wind-label">Wind</p>
+                    </div>
+                </div>
+                <div class="humidity-info">
+                    <i class="material-icons">water_drop</i>
+                    <div>
+                        <h3 class="humidity">45%</h3>
+                        <p class="humidity-label">humidity</p>
+                    </div>
+                </div>
+                <div class="visibility-info">
+                    <i class="material-icons">visibility</i>
+                    <div>
+                        <h3 class="visibility-distance">4 KM/H</h3>
+                        <p class="visibility">Visibility</p>
+                    </div>
+                </div>
+            </div>
         </div>
-     </div>
-  </header>
-  
-  
-  <!-- header end -->
 
- <!-- home section start -->
- 
- <section class="home-section">
-   
-      <h1>Welcome to PKC Papers</h1>
-      <p>Here you can download previous year question papers</p>
-   
- </section>
-
- <!-- home section end -->
- 
-<script src="/js/script.js"></script>
-<footer class="footer-distributed">
-
-
-   <div class="footer-left">
-      <div class="profile">
-         <img src="my.jpeg" alt="profile picture">
-        </div>
-       <h3>Indramoni<span>Deka</span></h3>
-   </div>
-
-   <div class="footer-center">
-       <div>
-         <i class="fa fa-location-dot"></i>
-           <p><a href="https://goo.gl/maps/c3uGJci5439qWWif9" >Puthimari,Rangia,Assam</a></p>
-       </div>
-       <div>
-           <i class="fa fa-envelope"></i>
-           <p><a href="#">ulfaman160@gmail.com</a></p>
-       </div>
-   </div>
-   <div class="footer-right">
-       <p class="footer-company-about">
-           <span>About the Developer</span>
-           <strong>Indramoni Deka</strong> | HTML, CSS, JavaScript, C/C++, Python, Node JS.
-       </p>
-       <div class="footer-icons">
-           <a href="https://www.facebook.com/indramoni.deka.5?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
-           <a href="https://instagram.com/artletic_by_id?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
-           <a href="https://twitter.com/IndramoniDeka?t=80qhx3Hwt7PBTcRSjXUsqQ&s=09"><i class="fa-brands fa-twitter"></i></a>
-       </div>
-   </div>
-</footer>
-</body>
-
+        <script src="script.js"></script>
+    </body>
 </html>
